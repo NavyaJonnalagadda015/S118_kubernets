@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: jnavya015/s118_skill14:v1   # ✅ Your image
+        image: jnavya015/s118_kuber:v1   # ✅ Your image
         ports:
         - containerPort: 8080             # ✅ Must match app’s internal port
 ---

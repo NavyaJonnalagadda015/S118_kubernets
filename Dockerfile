@@ -6,7 +6,7 @@
     RUN apt-get update && apt-get install -y git
     
     # Clone your frontend repo
-    RUN git clone  https://github.com/NavyaJonnalagadda015/S118_Docker_kuber_Frontend.git .
+    RUN git clone  https://github.com/NavyaJonnalagadda015/S118_kubernets.git .
     
     RUN npm install
     RUN npm run build
